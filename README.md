@@ -1,7 +1,7 @@
 # QBinder
 简单的注解绑定View和onClick事件，个人Annotation学习产物
 
-```
+```java
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.textview)
     TextView textView;

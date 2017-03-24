@@ -1,7 +1,7 @@
 # QBinder
 简单的注解绑定View和onClick事件，代替findViewById和setOnClickListener，个人Annotation学习产物
 
-```goovy
+```groovy
 compile 'q.rorbin:qbinder:1.0.0'
 ```
 

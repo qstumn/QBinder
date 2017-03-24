@@ -1,6 +1,10 @@
 # QBinder
 简单的注解绑定View和onClick事件，代替findViewById和setOnClickListener，个人Annotation学习产物
 
+```goovy
+compile 'q.rorbin:qbinder:1.0.0'
+```
+
 ```java
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.textview)
@@ -31,3 +35,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+#### 更新计划
+使用注解处理器代替反射优化性能，编写对应的AS插件
